@@ -1,0 +1,18 @@
+[package]
+name = "base64url"
+version = "0.1.0"
+authors = ["ParallelChain Lab <info@parallelchain.io>"]
+edition = "2018"
+description = "Base64URL encoding defined in IETF RFC 4648"
+license = "Apache-2.0"
+repository = "https://github.com/parallelchain-io/base64url"
+keywords = ["blockchain", "parallelchain", "crypto", "library"]
+categories = ["encoding"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+doctest = false
+
+[dependencies]
+base64 = "0.21.0"
