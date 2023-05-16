@@ -5,7 +5,6 @@
 
 //! Implementation of the encode and decode operations on base64url (as defined in IETF RFC 4648) String.
 //! The encoded string restricted to containing the 2^6 UTF-8 code points without padding.
-//! It is the *only* binary-to-text encoding scheme used in ParallelChain F. 
 //! 
 //! In general, we use `-` and `_` instead of `+` and `/`, without paddings.
 
